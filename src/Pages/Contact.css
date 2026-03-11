@@ -1,0 +1,99 @@
+.contact {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 3rem 4rem;
+    min-height: 100vh;
+    background:#c5edec;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+}
+
+.contact h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: #5fdbd7;
+    border-radius: 2px;
+}
+
+.contact > p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    max-width: 800px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    background: #f9f9f9;
+    padding: 2.5rem;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 0;
+    padding: 0.75rem 0;
+    padding-left: 2rem;
+    position: relative;
+    border-left: 3px solid #5fdbd7;
+    background: white;
+    border-radius: 4px;
+    padding: 1rem 1rem 1rem 2rem;
+    transition: all 0.3s ease;
+}
+
+.contact-info p:hover {
+    transform: translateX(10px);
+    box-shadow: 0 2px 8px rgba(95, 219, 215, 0.3);
+}
+
+.contact-info p::before {
+    content: '→';
+    position: absolute;
+    left: 0.5rem;
+    color: #5fdbd7;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact {
+        padding: 80px 1.5rem 3rem;
+    }
+
+    .contact h2 {
+        font-size: 2rem;
+    }
+
+    .contact > p {
+        font-size: 1rem;
+    }
+
+    .contact-info {
+        padding: 1.5rem;
+        max-width: 100%;
+    }
+
+    .contact-info p {
+        font-size: 1rem;
+    }
+}
