@@ -4,7 +4,7 @@ import './Projects.css';
 import project1Image from '../assets/AlignmentKenya.png';
 import project2Image from '../assets/TaskiGoals..png';
 import project3Image from '../assets/shopsmart..png';
-import project4Image from '../assets/ALX.png';
+import project4Image from '../assets/Alx.png';
 
 export default function Projects() {
   return (
