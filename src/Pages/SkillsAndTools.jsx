@@ -1,6 +1,6 @@
 import React from 'react'
 import './SkillsAndTools.css'
-import JS from '../assets/JS-icon.png'
+import JS from '../assets/JS-Icon.png'
 import ReactIcon from '../assets/React-icon.svg.png'
 import HTMLIcon from '../assets/HTML-icon.avif'
 import CSSIcon from '../assets/css-icon.png'
