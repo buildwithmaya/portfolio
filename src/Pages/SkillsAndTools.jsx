@@ -78,8 +78,8 @@ export default function SkillsAndTools() {
                 </div>
             </li>
         </ul>
-        <p>Improving my skills in, and understanding of vanilla JavaScript and React.Also, having fun learning Using AI-assisted development as part of my learning process to experiment with ideas and build small projects <a className='github-ref' href="https://github.com/sheelah-portfolio">Follow my journey here.</a></p>
-
+        <p>Improving my skills in, and understanding of vanilla JavaScript and<a className='github-ref' href="https://github.com/buildwithmaya?tab=repositories" target='_blank' rel='noopener noreferrer'>Follow my journey here.</a></p>
+ React.Also, having fun learning Using AI-assisted development as part of my learning process to experiment with ideas and build small projects 
 
     </div>
   );

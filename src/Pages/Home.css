@@ -21,6 +21,7 @@
 }
 
 .hero::before {
+   
     content: "";
     position: absolute;
     inset: 0;
@@ -28,9 +29,9 @@
     clip-path: polygon(45% 0%, 100% 0%, 100% 100%, 0 100%,0% 90%,60% 50%);
     z-index: 0;
     object-fit: cover;
+   
+
 }
-
-
 
 .hero-left {
     width: 50%;
@@ -38,7 +39,7 @@
     margin-right: 4rem;
     padding-left: 3rem;
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
 .hero-left h2 {
@@ -78,9 +79,9 @@
     max-width: 100%;
     height: auto;
     position: absolute;
-    right: 50%;
+    right: 60%;
     top: 50%;
-    transform: translateY(-45%);
+    transform: translateY(-40%);
     z-index: 2;
 }
     
@@ -93,6 +94,7 @@
     display: flex;
     gap: 1rem;
     margin-top: 2rem;
+    z-index: 2;
 }
 
 .hero-buttons .primary {

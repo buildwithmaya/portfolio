@@ -14,10 +14,10 @@ export default function Home() {
                 <p>Welcome to my portfolio website.<br></br> Explore my projects and get in touch!</p>
 
                 <div className="hero-buttons">
-                    <button className="primary" onClick={() => (window.location.href = '#projects')}>
+                    <button className="primary" onClick={() => (window.location.href = 'projects')}>
                         View My Work
                     </button>
-                    <button className="secondary" onClick={() => (window.location.href = '#contact')}>
+                    <button className="secondary" onClick={() => (window.location.href = 'contact')}>
                         Contact Me
                     </button>
                 </div>
